@@ -88,9 +88,7 @@ letter-spacing: 3px;
 .navbar .nav-link:hover{
     color: var(--main-color) !important;
 }
-/* .navbar .nav-link.active:hover{
-    color: var(--main-color) !important;
-} */
+
 .navbar .nav-item .search{
     position: relative;
 }
@@ -444,7 +442,7 @@ bottom: 10%;
 /* $$$$$start media $$$$$$ */
 @media (max-width: 1200px) {
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
 .ourteam .main-hdr h3 {
         top: 40px;
